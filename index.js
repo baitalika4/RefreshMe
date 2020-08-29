@@ -1,7 +1,7 @@
 var random1=Math.floor(Math.random()*6)+1;
 
 
-var randomImageSource="images/dice"+random1+".png";
+var randomImageSource="dice"+random1+".png";
 
 var image1=document.querySelectorAll("img")[0];
 
@@ -10,7 +10,7 @@ image1.setAttribute("src",randomImageSource);
 var random2=Math.floor(Math.random()*6)+1;
 
 
-var randomImageSource2="images/dice"+random2+".png";
+var randomImageSource2="dice"+random2+".png";
 
 document.querySelectorAll("img")[1].setAttribute("src",randomImageSource2);
 
